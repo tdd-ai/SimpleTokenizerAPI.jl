@@ -1,14 +1,13 @@
 module APITemplate
-using SimpleTokenizer
 
-include("src/Client.jl")
+include("Client.jl")
 using .Client
 
-include("src/Resource.jl")
-using .Resource
-
-include("src/Auth.jl")
+include("Auth.jl")
 using .Auth
+
+include("Resource.jl")
+using .Resource
 
 function run()
     Resource.run()

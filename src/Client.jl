@@ -1,7 +1,6 @@
 module Client
-using Sockets
+
 using HTTP
-using JSON
 using SimpleTokenizer
 
 function handleTokenize(req::HTTP.Request, input)
@@ -19,4 +18,4 @@ function handleGetUniqueWords(req::HTTP.Request, input)
 end
 
 
-end
+end # module
