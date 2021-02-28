@@ -1,1 +1,0 @@
-source .env && julia service/server.jl &>> tokenizer_server.log
