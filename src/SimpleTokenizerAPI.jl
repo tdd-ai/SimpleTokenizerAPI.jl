@@ -1,4 +1,4 @@
-module APITemplate
+module SimpleTokenizerAPI
 
 include("Client.jl")
 using .Client

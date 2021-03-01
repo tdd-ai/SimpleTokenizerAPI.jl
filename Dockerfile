@@ -22,5 +22,5 @@ ENV LIB_PATH=$lib_path
 # compile and run
 RUN julia deploy/packagecompile.jl
 
-ENTRYPOINT julia --sysimage "$LIB_PATH" -e "APITemplate.run()"
+ENTRYPOINT julia --sysimage "$LIB_PATH" -e "SimpleTokenizerAPI.run()"
 EXPOSE $api_port

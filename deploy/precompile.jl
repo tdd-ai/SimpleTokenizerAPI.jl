@@ -1,4 +1,4 @@
-import APITemplate
+import SimpleTokenizerAPI
 
 # running tests before compiling package
-# include(joinpath(dirname(pathof(APITemplate)), "../test", "runtests.jl"))
+# include(joinpath(dirname(pathof(SimpleTokenizerAPI)), "../test", "runtests.jl"))

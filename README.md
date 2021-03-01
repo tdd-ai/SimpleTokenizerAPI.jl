@@ -28,7 +28,7 @@ Note that you must not share your own copy of .env file, since it might contain 
 ```bash
 source .env
 julia deploy/packagecompile.jl
-julia --sysimage $LIB_PATH -e "APITemplate.run()"
+julia --sysimage $LIB_PATH -e "SimpleTokenizerAPI.run()"
 ```
 
 ### Build docker image and run
@@ -39,6 +39,8 @@ docker run -p $API_PORT:$API_PORT -d simple_tokenizer.jl_api:v0.1
 ```
 
 ### Test API using cURL
+
+if you are not in the same terminal window, run: `source .env` first.
 
 ```bash
 curl -H "Auth-Token: "$AUTH_TOKEN -X POST -d '{"text":"this is some sentence. this is another sentence"}' http://localhost:$API_PORT/tokenize/

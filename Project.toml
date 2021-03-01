@@ -1,4 +1,4 @@
-name = "APITemplate"
+name = "SimpleTokenizerAPI"
 uuid = "7bd4ac69-4294-43f9-8b92-99f6b4b0ee48"
 authors = ["Emirhan Kurtuluş <emirhan422@gmail.com>"]
 version = "0.1.0"
