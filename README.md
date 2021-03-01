@@ -1,4 +1,4 @@
-# Julia API Template - Simple Tokenizer
+# Julia API Template - SimpleTokenizerAPI.jl
 
 This repo contains an example of an API of [SimpleTokenizer.jl](https://github.com/tdd-ai/SimpleTokenizer.jl) in Julia.
 
